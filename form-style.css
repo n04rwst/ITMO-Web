@@ -17,6 +17,15 @@ body {
     margin: 0;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 input, select, button {
     display: block;
     margin-top: 10px;
@@ -52,10 +61,15 @@ fieldset {
     border-radius: 50%;
 }
 
+.skins-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
 .skins-title {
     font-size: 36px;
-    margin: 0 0 0 75px;
-    padding-top: 50px;
     text-transform: uppercase;
 }
 
@@ -163,8 +177,8 @@ button {
     align-items: center;
     gap: 20px;
     position: relative;
-    border-top: 1px solid var(--color-table-border);
-    border-bottom: 1px solid var(--color-table-border);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
     padding: 20px;
 }
 
