@@ -11,6 +11,11 @@
     <script src="page-load-time.js"></script>
     <script src="active-menu.js"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="slider-script.js"></script>
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,35 +46,42 @@
 
         <section class="best-sellers">
             <h2 class="best-sellers__title title">Best Sellers</h2>
-            <div class="best-sellers__gallery">
-                <div class="best-sellers__gallery-item">
-                    <a href="" class="best-sellers__gallery-link">
-                        <img class="best-sellers__gallery-element" src="./img/best-seller-1.jpg" alt="">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="swiper-image" src="./img/best-seller-1.jpg" alt="Wave Gen RX">
                         <p>Wave Gen RX</p>
                         <p>$579.99</p>
-                    </a>
-                </div>
-                <div class="best-sellers__gallery-item">
-                    <a href="" class="best-sellers__gallery-link">
-                        <img class="best-sellers__gallery-element" src="./img/best-seller-2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-image" src="./img/best-seller-2.jpg" alt="Playbox XZ Gold Edition">
                         <p>Playbox XZ Gold Edition</p>
                         <p>$1000.00</p>
-                    </a>
-                </div>
-                <div class="best-sellers__gallery-item">
-                    <a href="" class="best-sellers__gallery-link">
-                        <img class="best-sellers__gallery-element" src="./img/best-seller-3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-image" src="./img/best-seller-3.jpg" alt="Wave">
                         <p>Wave</p>
                         <p>$29.99</p>
-                     </a>
-                </div>
-                <div class="best-sellers__gallery-item">
-                    <a href="" class="best-sellers__gallery-link">
-                        <img class="best-sellers__gallery-element" src="./img/best-seller-4.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-image" src="./img/best-seller-4.jpg" alt="Mach Gaming Chair">
                         <p>Mach Gaming Chair</p>
                         <p>$116.99</p>
-                    </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-image" src="./img/x2-wireless-mouse.jpg" alt="X2 Wireless Mouse">
+                        <p>X2 Wireless Mouse</p>
+                        <p>$39.99</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-image" src="./img/trending-game-3.jpg" alt="Ancient Souls">
+                        <p>Ancient Souls</p>
+                        <p>$29.99</p>
+                    </div>
                 </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </section>
 

@@ -43,7 +43,7 @@ body {
 
 .title {
     font-size: 36px;
-    margin: 0 0 0 125px;
+    margin: 0 0 30px 125px;
     padding-top: 50px;
     text-transform: uppercase;
 }
@@ -55,11 +55,37 @@ body {
     color: #ffffff;
 }
 
-.best-sellers__gallery,
+.swiper {
+    width: 70%;
+    max-width: 1000px;
+}
+
+.swiper-wrapper {
+    padding: 40px;
+}
+
 .trending-games__gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(257px, 1fr));
     padding: 20px;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-image {
+    width: 457px;
+    height: 375px;
+    margin: auto;
+    border-radius: 7%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #1658BC;
 }
 
 .shop-by-category__gallery {
@@ -69,7 +95,6 @@ body {
 }
 
 .shop-by-category__gallery-item,
-.best-sellers__gallery-item,
 .trending-games__gallery-item {
     text-align: center;
     margin: 30px;
@@ -84,7 +109,6 @@ body {
     transition: transform 0.6s;
 }
 
-.best-sellers__gallery-element,
 .trending-games__gallery-element {
     width: 257px;
     height: 375px;
@@ -144,7 +168,6 @@ body {
 .footer__page-load {
     margin-left: 120px;
 }
-
 
 .products__title, .policy__title, .store__title {
     font-size: 20px;
